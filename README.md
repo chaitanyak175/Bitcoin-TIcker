@@ -11,8 +11,7 @@ Bitcoin Ticker is a mobile application that fetches real-time cryptocurrency dat
 
 ## Screenshots
 <!-- Add screenshots of your app here -->
-1. **Main Screen:** Shows the current price of selected cryptocurrencies.
-2. **Currency Selection:** Users can select different fiat currencies to see equivalent cryptocurrency prices.
+
 
 ## Getting Started
 
@@ -34,10 +33,9 @@ Bitcoin Ticker is a mobile application that fetches real-time cryptocurrency dat
     ```
 
 3. Set up your CoinAPI key:
-    - Create a `.env` file in the root directory of the project.
-    - Add your CoinAPI key to the `.env` file:
-    ```env
-    COIN_API_KEY=your_api_key_here
+    - Add your CoinAPI key to the `lib/services/actualCoinData.dart` file:
+    ```actualCoinData
+    api_key=your_api_key_here
     ```
 
 4. Run the app on your device or emulator:
