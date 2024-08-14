@@ -48,7 +48,8 @@ Bitcoin Ticker is a mobile application that fetches real-time cryptocurrency dat
 - **Change Currency:** Use the currency selector to view prices in different fiat currencies.
 
 ## Project Structure
-lib/
+lib/\
+|\
 ├── main.dart # The main entry point of the app\
 ├── services/ # API service to fetch data from CoinAPI\
 ├── screens/ # UI screens for the app\
