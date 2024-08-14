@@ -53,7 +53,7 @@ lib/\
 ├── main.dart # The main entry point of the app\
 ├── services/ # API service to fetch data from CoinAPI\
 ├── screens/ # UI screens for the app\
-├── constants/ # Custom reusable widgets\
+├── constants/ # Custom reusable widgets
 
 
 
